@@ -1,0 +1,14 @@
+there are 4 atomic vectors in R
+all 4 are created using R vector and are created in c
+:-
+Numeric
+Integer
+Character
+Logical
+Complex
+difference between array and matrices in R
+An Array is a multi-dimensional container for homogeneous data, while a Matrix is a two dimensional (rectangular) array of values. In other words, a matrix is just a special case of
+what is Data Frames in R?
+how to create a data frame in R ?  
+Data frames can be thought of as tables or structured datasets. They are the most general type of data structure in R, holding more than one kind of data (numeric, character, logical etc.)   
+create a frame with 3 datatypes having total numbers of 5 values perform the operations of deletion on rows and columns             

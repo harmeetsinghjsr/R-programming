@@ -1,0 +1,8 @@
+
+list2 <- list(a = 1, b = 2, c = 3)
+vector <- c(1, 2, 3)
+matrix <- matrix(1:9, nrow = 3, ncol = 3)
+my_list <- list(list2, vector, matrix)
+print(my_list[1])
+print(my_list[2])
+print(my_list[3])
