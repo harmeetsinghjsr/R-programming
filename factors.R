@@ -23,3 +23,5 @@ d<-is.factor(z)
 d
 r<-factor((z),labels=c("d","x"))
 r
+c(1,2,3)
+c("a","b","c")

@@ -78,3 +78,14 @@ calc<- function(a,b)
 }
 
 calc(5,2)
+
+
+
+f<-function(a,b,c)
+{
+  sum<-a*b+c
+  print(sum)
+}
+f(2,3,b=4)
+
+
