@@ -45,4 +45,9 @@ str(x)
 #returns a vector containing the names and values
 
 toupper("hello")
-tolower("HELLO")
+tolower("HELLO")\
+
+
+
+
+apply(x, 1, sum)

@@ -1,3 +1,8 @@
+apply function:
+apply function is used to apply a function to the rows or columns of a matrix or an array. 
+The basic syntax of apply function is as follows:  
+apply(X, MARGIN, FUN, ...)
+X is an array or matrix
 x<-matrix(c(1,2,3,4), nrow=2, ncol=2)
 x
 apply(x, 1, sum)
