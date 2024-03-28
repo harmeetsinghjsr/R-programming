@@ -47,6 +47,7 @@ f<-factor(c("a","b","a","b","a"),labels=c("a","b"))
 tapply(x,f,mean)
 
 
+#mapply
 mapply(rep, 1:4, 4:1)
 mapply(rep,times=1:4,x= 4:1)
 mapply(rep,times=1:4,MoreArgs=list(x=42))
