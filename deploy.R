@@ -12,6 +12,9 @@ View(airquality)
 str(freeny)
 View(freeny)
 
+df<-iris
+df%>select(Sepal.Length, Sepal.Width, Species) %>% filter(Species == 'setosa' & Petal.Length> 1.4 & Sepal.Length>3.5) %>% head(5)
+
 str(LifeCycleSavings)
 str(mpg)
 str(mtcars)
