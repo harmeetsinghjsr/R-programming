@@ -14,7 +14,6 @@ l<-tidy_dataframe %>%
 
 
 
-
 tidy_df<-read.csv(file.choose())
 
 View(tidy_df)
