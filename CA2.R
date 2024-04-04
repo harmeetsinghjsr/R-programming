@@ -1,4 +1,4 @@
-#A)  Function To Print The Fibonacci Sequence Using A Loop For 15 Elements And      First No. Start From 7.
+#A)  Function To Print The Fibonacci Sequence Using A Loop For 15 Elements And First No. Start From 7.
 fibonacci <- function(n){
   a <- 7
   b <- 8
