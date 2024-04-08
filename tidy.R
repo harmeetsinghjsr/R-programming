@@ -26,3 +26,24 @@ unite_data <- seperate(tidy_dataframe, col = "Date", into = "Date", sep = "-") %
 unite(Group,Allotment,NUMBER,SEP = "_") %>% View("Group and Allotment united into one column")
 unite_data
 
+spread(tidy_dataframe, key = "Group", value = "Value") %>% View("Data spread into columns")
+
+spread(tidy_dataframe, key = "Group", value = "Frequency") %>% View("Data spread into columns")
+
+name(iris) <- "iris_data"
+name(iris)
+
+head(tidy_dataframe)
+
+df<-data.frame(
+    S_No = c(1:10),
+    Group.1 = c(23,345,76,212,88,199,72,35,90,265),
+    Group.2 = c(117,89,66,334,90,101,178,233,45,200),
+    Group.3 = c(29,101,239,289,176,320,89,109,199,56)
+)
+
+dfname <- data.frame(a = character(), b = character())
+dfname
+dfname$a <- c("A", "B", "C", "D", "E")
+dfname$b <- c("F", "G", "H", "I", "J")
+dfname

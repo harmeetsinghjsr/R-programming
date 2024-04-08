@@ -12,8 +12,6 @@ new.function(a) # Call the function
 
 
 
-
-
 #check whether a number is even or odd using function
 x<-5
 even.odd<-function(x){
