@@ -101,10 +101,12 @@ print(array)
 # iii. Subset using DPLYR package
 # iv. Subset using SQL select query
 
+
 library(dplyr)
 ?dplyr
 str(mtcars)
 View(mtcars)
+
 # i. Subset without using any package or function
 filtered_mtcars <- mtcars[mtcars$gear > 3 & mtcars$am == 1 & mtcars$cyl > 3, ]
 print(filtered_mtcars$mpg)
@@ -132,3 +134,4 @@ print(filtered_mtcars_sql)
 vector <- c("a", "n", "hello", "c45", "Goodmorning", "B23", 7)
 print(vector)
 print(sapply(vector, class))
+
