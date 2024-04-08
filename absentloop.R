@@ -31,7 +31,7 @@ x = switch(
   y,
   "9"="hello arpita",
   "12"="hello vaishali",
-  "18"="hello nishka",
+  "18"="hello anishka",
   "21"="hello guru"
 )
 print(x)

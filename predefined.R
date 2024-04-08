@@ -50,6 +50,3 @@ tolower("HELLO")
 
 
 
-
-apply(x, 1, sum)
-
