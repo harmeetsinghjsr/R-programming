@@ -21,3 +21,8 @@ View(tidy_df)
 gather(tidy_dataframe, key = "key", value = "value", -Date, -gasbill) %>% View("Date and Gasbill")
 
 separate(tidy_dataframe, col = "Date", into = c("Day", "Month", "Year"), sep = "-") %>% View("Date separated into Day, Month and Year")
+
+unite_data <- seperate(tidy_dataframe, col = "Date", into = "Date", sep = "-") %>% View("Date united into one column")
+unite(Group,Allotment,NUMBER,SEP = "_") %>% View("Group and Allotment united into one column")
+unite_data
+

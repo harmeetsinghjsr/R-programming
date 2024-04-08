@@ -26,6 +26,7 @@ fibonacci(15)
 # Ii) Aggregate Minimum Of Marks With Subjects
 # Iii) Aggregate Maximum Of Marks With Subjects
 # iv)Aggregate mean of marks with Subject
+
 subjects <- c("java","python","java","java","php","php")
 id <- c(1,2,3,4,5,6)
 names <- c("manoj","sai","mounika","durga","deepika","roshan")
