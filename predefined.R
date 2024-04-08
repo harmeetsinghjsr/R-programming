@@ -30,10 +30,11 @@ x="Hello World Hello"
 gsub("a", "b", c("a", "b", "c", "d"))
 sub("hel","owe",x,ignore.case = FALSE)
 sub("hel","owe",x,ignore.case = TRUE)
+#substitutes the first occurrence of the pattern with the replacement
 
 strsplit("xyz","")
-
 strsplit("xyz","y")
+#splits the string into a list of characters
 
 paste("z",1:3,sep="")
 paste("z",1:3,sep="&y")
@@ -45,9 +46,10 @@ str(x)
 #returns a vector containing the names and values
 
 toupper("hello")
-tolower("HELLO")\
+tolower("HELLO")
 
 
 
 
 apply(x, 1, sum)
+
