@@ -12,3 +12,6 @@ pie(x, labels = names(x), col = "white",main = "Articles on GeekForGeeks", radiu
 
 # saving the file
 dev.off()
+
+#output to be present as pdf file
+pdf(file = "piechart.pdf")
