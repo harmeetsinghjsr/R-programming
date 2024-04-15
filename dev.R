@@ -12,4 +12,3 @@ pie(x, labels = names(x), col = "white",main = "Articles on GeekForGeeks", radiu
 
 # saving the file
 dev.off()
-
