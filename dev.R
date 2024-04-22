@@ -15,3 +15,4 @@ dev.off()
 
 #output to be present as pdf file
 pdf(file = "piechart.pdf")
+install.packages("rmarkdown")
