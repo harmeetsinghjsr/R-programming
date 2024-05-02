@@ -5,7 +5,7 @@ output:
     orientation: columns
     vertical_layout: fill
 ---
-
+install.packages("flexdashboard")
 ```{r setup, include=FALSE}
 library(flexdashboard)
 ```
