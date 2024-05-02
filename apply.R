@@ -11,7 +11,6 @@ apply(x, 2, mean)
 lapply(x, 1, sum)
 
 
-
 a<-c("abc","def","ghi")
 a
 print()
