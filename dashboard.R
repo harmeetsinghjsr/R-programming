@@ -20,6 +20,7 @@ library(openintro)
 library(highcharter)
 library(ggvis)
 ```
+
 ```{r}
 data <- read.csv("~/Desktop/vehicle.csv")
 ```
