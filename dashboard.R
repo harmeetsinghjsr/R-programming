@@ -23,8 +23,10 @@ library(tidyverse)
 
 library(ggplot2)
 
-df <- read.csv("data.C:\Users\hs978\CodeSpace\R-programming\data.csv")
-#view(df)
+df <- read.csv("C:/Users/hs978/CodeSpace/R-programming/data.csv")
+df
+str(df)
+View(df)
 
 df1 <- subset(df, select = c("year","dem","all_pass"))
 
