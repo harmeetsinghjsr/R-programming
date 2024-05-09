@@ -10,6 +10,3 @@ matrix_n<-c("matrix 1","matrix2")
 res<-array(c(vec1,vec2),dim=c(3,3,2),dimnames=list(rownames,colnames,matrix_n))
 print(res)
 print(res[1,2,1])
-
-
-
