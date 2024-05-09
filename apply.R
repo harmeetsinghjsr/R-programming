@@ -13,7 +13,6 @@ lapply(x, 1, sum)
 
 a<-c("abc","def","ghi")
 a
-print()
 lapply(a, toupper)
 #lapply is used to apply a function to each element of a list.
 
