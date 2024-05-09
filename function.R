@@ -21,8 +21,7 @@ even.odd<-function(x){
         print(paste(x,"is an odd number"))
     }
 }
-
-
+even.odd(10) # Call the function
 
 
 
