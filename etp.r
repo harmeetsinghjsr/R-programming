@@ -1,4 +1,5 @@
 #dataset 
+#use diabetes.csv dataset
 df<-read.csv(file.choose())
 df
 #select columns glucose, bloodpressure, insulin, and bmi from dataset, order the result by bmi in ascending and insulin in descending order, and show the first 10 rows 
