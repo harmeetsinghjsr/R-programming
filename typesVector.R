@@ -89,3 +89,11 @@ q<-c("A","B","C","D","E","F","G","H")
 r<-c(p,q)
 r
 
+ls()
+
+ls(all.names = TRUE)
+
+class(f)
+
+
+rm(p)
