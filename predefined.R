@@ -48,5 +48,11 @@ str(x)
 toupper("hello")
 tolower("HELLO")
 
-
-
+View(trees)
+str(trees)
+trees[20,3]
+trees[trees$Height>80,]
+trees[trees$Height>80,-2]
+library(sqldf)
+sqldf("select * from trees")
+sqldf("select * from trees where Height>80")
