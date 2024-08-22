@@ -47,3 +47,55 @@ cbind(df,c(1,2,3,4,5,6))
 #rbind
 rbind(df,c(1,2,3))
 df
+#all types of datatypes used in r
+
+# Numeric
+num <- 10
+
+# Character
+char <- "Hello, World!"
+
+# Logical
+logical <- TRUE
+
+# Integer
+integer <- 5L
+
+# Complex
+complex <- 3 + 2i
+
+# Factor
+factor <- factor(c("A", "B", "A", "B"))
+
+# Date
+date <- as.Date("2022-01-01")
+
+# POSIXct
+datetime <- as.POSIXct("2022-01-01 12:00:00")
+
+# NULL
+null <- NULL
+
+# List
+list <- list(1, "two", TRUE)
+
+# Data frame
+df <- data.frame(
+    stringsAsFactors = FALSE,
+    Name = c("John", "Jane", "Mike"),
+    Age = c(25, 30, 35),
+    Married = c(TRUE, FALSE, TRUE)
+)
+
+# Print the data types
+cat("Numeric:", typeof(num), "\n")
+cat("Character:", typeof(char), "\n")
+cat("Logical:", typeof(logical), "\n")
+cat("Integer:", typeof(integer), "\n")
+cat("Complex:", typeof(complex), "\n")
+cat("Factor:", typeof(factor), "\n")
+cat("Date:", typeof(date), "\n")
+cat("POSIXct:", typeof(datetime), "\n")
+cat("NULL:", typeof(null), "\n")
+cat("List:", typeof(list), "\n")
+cat("Data frame:", typeof(df), "\n")
