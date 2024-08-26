@@ -64,7 +64,7 @@ integer <- 5L
 # Complex
 complex <- 3 + 2i
 
-# Factor
+# Factor 
 factor <- factor(c("A", "B", "A", "B"))
 
 # Date
