@@ -36,3 +36,10 @@ print(emp.data)
 
 #printing summary
 print(summary(emp.data))
+
+dataf <- data.frame(name = c("Shubham", "Rahul", "Shubham", "Rahul", "Shubham", "Rahul"),
+           roll = c(53, 24, 63, 29, 85, 96),
+           subject = c("Maths", "Science", "CPP", "Java", "UI/UX", "DSA"))
+dataf
+write.csv(dataf, file = "dataf.csv",row,names = FALSE)
+dataf <- read.csv("dataf.csv")
