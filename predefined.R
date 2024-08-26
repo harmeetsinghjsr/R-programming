@@ -16,7 +16,7 @@ tan(z)
 cos(z)
 trunc(y)
 #Trims y to have no decimal plac
-round(y, digits = 2)
+round(y,2)
 #rounds y to specified number of decimal
 log(y)
 log10(y)

@@ -25,8 +25,6 @@ sqldf("select * from students where marks==33")
 
 
 
-
-
 library("sqldf")
 students<-read.csv(file.choose())
 View(students)
