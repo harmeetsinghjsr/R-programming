@@ -5,9 +5,13 @@ print(is.factor(data))
 fdata<-factor(data)
 print(fdata)
 print(is.factor(fdata))
+#replace the level
+print(levels(fdata))
 
 #labels in r
 print(levels(fdata))
+#factor levels
+print(nlevels(fdata$levels))
 
 #changing the labels
 levels(fdata)<-c("Shubham","Rahul")
@@ -25,3 +29,14 @@ r<-factor((z),labels=c("d","x"))
 r
 c(1,2,3)
 c("a","b","c")
+
+Genders <- factor(c("M", "F", "T"),levels=c("M", "F","ABC"))
+#replace T with ABC
+Genders
+Genders[Genders["T"]] <- "ABC"
+Genders
+#save variable names in r
+save("Genders",file="hfile.RData")
+getwd()
+x<-load("hfile.RData")
+
