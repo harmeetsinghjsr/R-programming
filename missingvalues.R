@@ -1,7 +1,7 @@
 #is.na()=find missing values
 #is.nan()=find not a number values
 #na.omit()=remove missing values
-
+library("tidyr")
 x<-c(NA,2,3,NA,5,6,7,NA,9)
 is.na(x)
 is.nan(x)
