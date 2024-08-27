@@ -17,6 +17,14 @@ prop <- prop.table(table(usedcars$model))#these values are determined by the num
 round(prop,digits=2)
 #round in percentage
 library(scales)
+library(tidyr)
 # table with percentage
 prop_percent <- percent(prop, accuracy = 0.01) # round to 2 decimal places and display as percentages
 prop_percent
+
+range(usedcars$year)
+is.na(usedcars)
+na.omit(usedcars)
+replace_na(usedcars,list(year=,mileage=))
+sum(is.na())
+# KNN algorithm
