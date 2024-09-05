@@ -1,0 +1,5 @@
+library(sqldf)
+library(readxl)
+sample <- read_xls(file.choose())
+str(sample)
+View(sample)
