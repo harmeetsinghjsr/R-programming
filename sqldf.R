@@ -45,7 +45,7 @@ sqldf("select * from students where Name='jp'")
 
 
 
-some queries more usin sqldf and data would be height city items etc
+#some queries more usin sqldf and data would be height city items etc
 library("sqldf")
 students<-read.csv(file.choose())
 View(students)
