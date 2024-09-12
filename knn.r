@@ -17,10 +17,9 @@ norm<-function(wcd){
 }
 
 
-
 wcd_norm<-as.data.frame(lapply(wcd[2:31], norm))
 summary(wcd_norm)
-boxplot(wcd_norm)
+# boxplot(wcd_norm)
 
 
 
@@ -45,12 +44,6 @@ table(knn_pred,test$diagnosis)
 
 library(class)
 knn_pred<-knn(train=train,test=test,cl=x[y==1,1],k=5.00654)
-
-
-
-
-
-
 
 
 # Load necessary library

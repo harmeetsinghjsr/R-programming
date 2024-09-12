@@ -24,10 +24,6 @@ accuracy
 
 
 
-
-
-
-
 #apply knn to iris dataset and check accuracy
 
 # Load necessary library
