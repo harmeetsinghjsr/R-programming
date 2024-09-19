@@ -8,3 +8,5 @@ corpus<-Corpus(VectorSource(comm$Comments))
 corpus[[1]][1]
 
 corpus<-tm_msp(corpus,content_transformer(function(x)iconv(x,"lation1","ASCII",sub="")))
+
+corpus<-tm_msp(corpus,content_transformer(tolower))
