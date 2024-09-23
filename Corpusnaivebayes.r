@@ -42,8 +42,8 @@ sms_dtm_test<-sms_dtm[4170:5572,]
 
 library(wordcloud)
 library(RColorBrewer)
+wordcloud(sms_clean, min.freq = 50,scale = c(3,1), random.order = FALSE,color = c("#FF6F59","#43AA8B", "#ACECA1", "#3C7A89", "#F9DBBD"))
 
-wordcloud(sms_clean, min.freq = 50,scale = c(3,1), random.order = FALSE,color = brewer.pal(5, "Dark2"))
 findFreqTerms(sms_dtm_train, lowfreq = 50)
 
 sms_freq_words <- findFreqTerms(sms_dtm_train, lowfreq = 50)
