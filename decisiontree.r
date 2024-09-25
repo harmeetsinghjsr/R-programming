@@ -8,9 +8,9 @@ df<- data.frame(
 )
 View(df)
 
-entropy<-function(x){
-  p<-table(x)/length(x)
-  -sum(p * log2(p))
+entropy<-function(x){ #randomness in the data
+  prob<-table(x)/length(x)
+  -sum(prob * log2(prob))
 }
+sapply(df, entropy)
 
-sapply(df[,2:5], entropy)
